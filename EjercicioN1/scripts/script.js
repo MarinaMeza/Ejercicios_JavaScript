@@ -1,6 +1,4 @@
 window.onload = function saludar()
 {
-    alert("HOLA MUNDO");
-    alert("Puedo mostrar comillas 'simples'");
-    alert('Y comillas "dobles"');
+    alert("HOLA MUNDO\nPuedo mostrar comillas 'simples'\nY comillas \"dobles\"");
 }
