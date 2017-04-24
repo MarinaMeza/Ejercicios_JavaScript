@@ -1,13 +1,55 @@
+<!--9.Se necesita hacer una página que contenga dos cuadros de texto (dónde se ingresarán números), un botón (con la leyenda ‘Calcular’) y cuatro controles de tipo ‘radioButton’ (suma, resta, multiplicación y división). Cuando se pulsa el botón una función deberá mostrar el resultado, de acuerdo al tipo de operación que el usuario eligió. Utilizar la estructura ‘switch’.-->
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <script src="scripts/scipt.js"></script>
+    <script src="scripts/script.js"></script>
     <title>Ejercicio 08</title>
 </head>
 <body>
-    
+    <form action="" method="POST">
+        <input type="number" id="numero1" placeholder="Ingrese un número"><br>
+        <input type="number" id="numero2" placeholder="Ingrese un número"><br>
+        <input type="radio" name="operacion" value="1">
+        <label for="suma">Suma</label><br>
+        <input type="radio" name="operacion" value="2" >
+        <label for="resta">Resta</label><br>
+        <input type="radio" name="operacion" value="3">
+        <label for="multiplicacion">Multiplicación</label><br>
+        <input type="radio" name="operacion" value="4">
+        <label for="division">División</label><br>
+        <input type="submit" name="enviar" value="Calcular">
+    </form>
 </body>
 </html>
+
+
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="scripts/script.js"></script>
+    <title>Ejercicio 08</title>
+</head>
+<body>
+    <form action="" method="POST" onSubmit="return hola()">
+        <input type="number" id="numero1" placeholder="Ingrese un número"><br>
+        <input type="number" id="numero2" placeholder="Ingrese un número"><br>
+        <input type="radio" id="suma">
+        <label for="suma">Suma</label><br>
+        <input type="radio" id="resta">
+        <label for="resta">Resta</label><br>
+        <input type="radio" id="multiplicacion">
+        <label for="multiplicacion">Multiplicación</label><br>
+        <input type="radio" id="division">
+        <label for="division">División</label><br>
+        <input type="submit" name="enviar" value="Calcular" src="hola()">
+    </form>
+</body>
+</html> -->
