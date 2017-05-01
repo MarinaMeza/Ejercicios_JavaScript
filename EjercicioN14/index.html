@@ -1,3 +1,5 @@
+<!--14.Realizar una página que permita el ingreso de: Apellido, Nombre, Dni y sexo de una persona. Si el usuario pulsa el botón de confirmación se invocará a una función encargada de validar cada uno de los datos ingresados (que tanto el nombre y apellido no estén vacíos, que el documento sea numérico y que el sexo sea o ‘m’ o ‘f’).-->
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -8,6 +10,16 @@
     <title>Ejercicio 14</title>
 </head>
 <body>
-    
+    <form action="" method="POST">
+        <label for="apellido">Apelldo</label>
+        <input type="text" id="apellido"><br>
+        <label for="nombre">Nombre</label>
+        <input type="text" id="nombre"><br>
+        <label for="dni">DNI</label>
+        <input type="text" id="dni"><br>
+        <label for="sexo">Sexo (F/M)</label>
+        <input type="text" id="sexo"><br>
+        <input type="submit" value="Validar" id="validar"><br>
+    </form>
 </body>
 </html>
