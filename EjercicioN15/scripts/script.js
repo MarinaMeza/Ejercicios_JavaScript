@@ -10,19 +10,16 @@ window.onsubmit = function(){
     if(nombre == "" || apellido == ""){
         alert("Ingrese nombre y apellido");
         flag=false;
-        return false;
     }
 
     if(isNaN(dni)){
         alert("Ingrese un DNI valido");
         flag=false;
-        return false;
     }
 
     if(sexo!='m' && sexo!='f'){
         alert('Ingrese el sexo correctamente: "F" para femenino o "M" para masculino');
         flag=false;
-        return false;
     }
 
     if(flag){
